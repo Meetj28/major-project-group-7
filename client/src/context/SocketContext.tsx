@@ -28,7 +28,7 @@ export const useSocket = (): SocketContextType => {
 }
 
 // const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
-const BACKEND_URL = 'https://server-codesphere.onrender.com/';
+const BACKEND_URL = 'https://major-project-group-7.onrender.com';
 
 const SocketProvider = ({ children }: { children: ReactNode }) => {
     const {
